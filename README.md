@@ -9,6 +9,7 @@ $ git clone https://github.com/MaheshYadavGitHub/Assignment.git in your terminal
 ## You can serve the template with the command 'npm start'.
 
 
+![image](https://user-images.githubusercontent.com/60662964/164514596-f728e6a7-1f9e-4a45-bb66-17ba8b4d6ceb.png)
 
 
 # Getting Started with Create React App
