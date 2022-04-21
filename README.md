@@ -1,3 +1,16 @@
+How to use the project?
+# Click the Clone or Download button in GitHub and download as a ZIP file or you can enter the command
+$ git clone https://github.com/MaheshYadavGitHub/Assignment.git in your terminal to get a copy of this project.
+
+# After the files have been downloaded you will get a folder with all the required files
+
+# You can install all the dependencies in the template by running the command 'npm install'. All the required files are in the node modules.
+
+# You can serve the template with the command 'npm start'.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
