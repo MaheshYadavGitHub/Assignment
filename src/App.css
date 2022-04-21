@@ -2,37 +2,114 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navbar Styling */
+
+.nav-link {
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 19px !important;
+  margin: 0px 24px !important;
+  padding: 28px 0px !important;
+  color: #031926 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-icon {
+  padding: 16px;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-link.active {
+  border-bottom: 2px solid #0acadc;
+}
+
+/* Secondary navbar Styling */
+.search-box {
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  text-align: center;
+  width: 333px;
+  height: 45px;
+
+  background: #ffffff;
+  border: 1px solid #eaebee;
+  box-sizing: border-box;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-box .fa-search {
+  /* position: absolute; */
+  padding: 11.79px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-input {
+  width: 100%;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: rgba(52, 61, 86, 0.5);
+}
+
+.dropdown {
+  width: 233px;
+  height: 45px;
+  margin-left: 16px;
+  background: #ffffff;
+  border: 1px solid #eaebee;
+  box-sizing: border-box;
+  border-radius: 8px;
+  /*container for custom dropdown arrow*/
+  -webkit-appearance: none;
+  -moz-appearance: window;
+  padding: 13px 150px 15px 12px;
+  background-image: url(../../becker_alliance/public/assets/images/Arrow.png);
+  background-repeat: no-repeat;
+  background-position: 209px 50%;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #343d56;
+}
+
+.create_plan_btn {
+  width: 142px;
+  height: 45px;
+  margin-right: 16px;
+
+  background: #0acadc;
+  border-radius: 8px;
+  border: none;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.sec_nav_btn {
+  width: 61px;
+  height: 45px;
+
+  background: #ffffff;
+  border: 1px solid #eaebee;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+/* Data table styling */
+tbody > tr:last-child > td {
+  border-bottom: none;
 }

@@ -1,0 +1,90 @@
+.patient-image {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  border-radius: 150px;
+}
+
+.patient-details {
+  display: flex;
+  margin-left: 32px;
+  padding: 12px !important;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.patient-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 0px;
+  color: #343d56;
+}
+
+.patient-clinic {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  margin: 0px;
+  color: rgba(52, 61, 86, 0.5);
+}
+
+.font-style {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #363f57;
+}
+
+.fade-font {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  color: rgba(54, 63, 87, 0.5);
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  width: 60%;
+  padding: 5% 10%;
+  margin-right: 40%;
+
+  border-radius: 100px;
+}
+
+.active-color {
+  color: #0adc8f;
+  background: rgba(10, 220, 143, 0.15);
+}
+
+.active-dot {
+  background: #0adc8f;
+}
+
+.pending-color {
+  color: #fabb87;
+  background: rgba(250, 187, 135, 0.15);
+}
+
+.pending-dot {
+  background: #fabb87;
+}
+
+.pastdue-color {
+  color: #ff7596;
+  background: rgba(255, 117, 150, 0.15);
+}
+
+.pastdue-dot {
+  background: #ff7596;
+}
